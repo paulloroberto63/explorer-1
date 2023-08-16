@@ -1,17 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 
   text-align: center;
-  margin: 0;
+  
 }
 
 #hero {
   width: 592px;
-  margin: 0 auto 72px;
+  margin: 0 auto
 }
 
 #hero img {
-  margin-bottom: 72px;
+  margin-top: 72px;
 }
 
 h1 {
@@ -21,6 +28,7 @@ h1 {
   font-weight: normal;
 
   margin-bottom: 32px;
+  margin-top: 20px;
 }
 
 h1 span {
@@ -38,6 +46,11 @@ p, #footer {
   line-height: 28px;
 }
 
+p {
+  margin-bottom: 20px;
+}
+
+
 #footer a + a{
   margin-left: 28px;
 }
@@ -46,7 +59,7 @@ p, #footer {
   width: 568px;
   height: 0px;
 
-  margin: 0 auto 8px;
+  margin: 0 auto 5px;
 
   border: 1px solid #ECEFF2;
 }
